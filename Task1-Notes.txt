@@ -1,0 +1,7 @@
+Create a layout which is in the image tasks1-layout.png
+
+1. Use HTML/HTML5 for layout header, footer, Body sections
+2. Use External Style sheets for style sheets
+3. use the images given in this folder to create a layout.
+4. general icons like facebook, google can be taken from google.
+5. Time for development : 2days.
