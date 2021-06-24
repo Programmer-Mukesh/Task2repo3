@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top-layout{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 1rem 0rem 0rem 1rem;
+    width: 200px;
+    height: 10px;
+}
+
+.upperright{
+    margin: 1rem; 
+    padding-right:7px ; 
+    font-size: 14px; 
+}
+
+.logout{
+    text-align: end;
+    color: rgb(83, 82, 82);
+    font-weight: bold;  
+}
+
+.bluetext{
+    color: rgb(0, 174, 255);
+    cursor: pointer;
+    letter-spacing: -0.6px;
+}
+
+.bar{
+    color: rgb(129, 128, 128);
+    font-weight: bold;
+}
+
+.upper-rightimages{
+    text-align: end;
+    margin-top: 5px;
+}
+
+.upper-rightimages:hover{
+    cursor: pointer;
+}
+
+.fblogo{
+    width: 81px;
+    height: 20px;
+}
+.twitterlogo{
+    width:61px;
+    height:20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.8rem 0.5rem 0.28rem 0.5rem;
+}
+
+.menuleft{
+    background-color:  rgb(26, 196, 248);
+    color: white;
+    text-decoration: none;
+    padding: 5px 12px 4px 12px;
+    margin: -1.3px;   
+}
+.menuleft:hover{
+    background-color:  rgb(5, 180, 233);
+    cursor: pointer;
+}
+
+.menuright{
+    background-color:  rgb(94, 190, 56);
+    color: white;
+    text-decoration: none;
+    padding: 5px 12px 4px 12px;
+    margin: -1.3px;
+}
+.menuright:hover{
+    cursor: pointer;
+    background-color: rgb(70, 177, 28);
+}
+
+.radiusleft{
+    border-radius: 5px 0px 0px 0px;
+}
+
+.radiusright{
+    border-radius: 0px 5px 0px 0px;
+}
+
+.divider{
+    border: 2px solid rgb(223, 223, 223);
+}
+
+.banner{
+    display: flex;
+    max-height: 60px;
+}
+
+.adimg{
+    margin-left: 7.5rem;
+    width: 730px;
+    height: 58px;
+}
+
+.greeting{
+    padding: 1.7rem 1.3rem;
+    color: rgb(138, 138, 138);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.name{
+    color:rgb(112, 194, 80) ;
+    font-family: 'Courgette', cursive;
+    font-weight: 500;
+    font-size: 25px;
+    margin:0px 0px 0px 5px;
+}
+
+.middle-container{
+    display: grid;
+    height: 380px;
+    grid-template-columns: 23% 52% 25%;
+ 
+}
+.mid-leftsection{
+    margin-left: 1.3rem;
+    font-family:  Tahoma;
+}
+
+.mid-leftimg{
+    margin: 0.3rem 0rem 1.5rem 0rem;
+    height: 145px;
+    width: 135px;
+}
+
+.h4{
+    font-size: 18.5px;
+    font-weight: 700;
+    margin-bottom: 7px;
+    color: rgb(73, 72, 72);
+}
+.hr-dot{
+    margin: 5px 27px 4px 0px;
+    border: 0.1px dashed rgb(223, 223, 223);
+}
+
+.sidetiles{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -0.6px;
+    padding-top: 0.23rem;
+    margin-bottom: 0.5rem; 
+}
+
+.middle-img{
+    border:1.9px solid rgb(177, 177, 177);
+    width: 658px;
+    height: 220px;
+}
+
+.mid-lower-section{
+    border:1.9px solid rgb(177, 177, 177);
+    margin-bottom: 1rem;
+}
+
+.mid-text{
+    padding: 1.4rem 1.8rem; 
+}
+
+.h3{
+   color: rgb(85, 165, 54);
+   font-size: 23px ;
+}
+
+.lighttext{
+    color:rgb(138, 133, 118);
+    padding: 5px 0px;
+    font-size: 16px ;
+}
+
+.midtext .paragraph{
+    letter-spacing: 0.2px;
+}
+
+.greytxt{
+    color: rgb(119, 119, 119);
+    font-weight: 700;
+    font-size: 16px ;
+    padding-bottom: 5px;
+}
+
+.mid-right-item{
+    margin: 2px 18px;
+}
+
+.imagetext{
+    background: url(booking-seeker-mhp-bg.jpg);
+    background-size: cover;
+    padding: 1.6rem;
+    width: 290px;
+    height: 360px;
+    text-align: center;  
+}
+
+.mid-right-text{
+    background: none;
+    color: white;
+   
+}
+.imagetext h3{
+    padding: 20px 0px 2px 0px;
+    font-weight:400;
+    font-size: 29px;
+    letter-spacing: -0.9px;
+}
+.imagesubtext {
+    font-size: 14px;
+    padding-top: 5px;
+    
+}
+.imagetext .para{
+    padding-top: 6px;
+    font-size: 17px;  
+}
+
+.imagetext .btn{
+    margin-top:3.2rem ;
+    font-size: 16px;
+    padding: 3px 10px 6px 10px;
+    color: rgb(22, 175, 168);
+    background-color: white;
+    border:7px solid white;
+    border-radius: 7px; 
+}
+
+.footer-container1{
+    margin-top: 7rem;
+    display: grid;
+    height: 180px;
+    grid-template-columns: 27% 27% 46%;  
+}
+
+.griditem1{
+    padding-left: 1.3rem;
+}
+
+.container2-item1{
+    padding-left: 1rem;
+}
+
+.footer-container2{
+    border:1.9px solid rgb(177, 177, 177);
+    padding-top: 1rem;
+    display: grid;
+    height: 150px;
+    margin: 0 1rem 0 0.3rem ;
+    grid-template-columns: 27% 27% 40%;
+}
+
+.footer-container3{
+    padding-top: 1.5rem;
+    display: grid;
+    height: 260px;
+    grid-template-columns: 27% 73%;
+}
+
+.description-para{
+    color: rgb(158, 157, 157);
+    font-size: 14.5px;
+    padding-right: 2rem;
+}
